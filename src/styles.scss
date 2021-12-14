@@ -1,0 +1,9 @@
+@import "./app/themes/myStyles.scss";
+@import "./app/themes/myThemes.scss";
+@import "~@angular/cdk/overlay-prebuilt.css";
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #f6f6f6 !important;
+}

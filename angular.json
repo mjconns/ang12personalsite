@@ -26,9 +26,12 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "styles": [{
+              "input": "src/app/themes/myThemes.scss"
+            },
+            "src/styles.scss",
+            "./node_modules/font-awesome/css/font-awesome.css"
+          ],
             "scripts": []
           },
           "configurations": {
@@ -93,9 +96,12 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "styles": [{
+              "input": "src/app/themes/myThemes.scss"
+            },
+            "src/styles.scss",
+            "./node_modules/font-awesome/css/font-awesome.css"
+          ],
             "scripts": []
           }
         }

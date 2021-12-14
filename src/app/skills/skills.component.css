@@ -1,0 +1,29 @@
+
+#headerh2:before {
+  content: " ";
+  top: 50%;
+  height: 2px;
+  width: 45px;
+  margin: 6px 10px;
+  display: inline-block;
+  zoom: 1;
+  background: #333;
+}
+
+#headerh2:after {
+  content: " ";
+  top: 50%;
+  height: 2px;
+  width: 45px;
+  margin: 6px 10px;
+  display: inline-block;
+  zoom: 1;
+  background: #333;
+}
+
+h2 {
+  display: block;
+  margin-left: 40%;
+  margin-right: auto;
+  width: 50%;
+}
